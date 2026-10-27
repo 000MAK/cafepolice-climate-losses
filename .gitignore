@@ -1,0 +1,4 @@
+﻿data/
+hf_release/
+__pycache__/
+.pytest_cache/

@@ -1,0 +1,26 @@
+{
+  "model": "quasi-Poisson GLM, log(lambda) = a + b * (year - 2010)",
+  "target": "yearly NOAA hail reports >= 2 inches",
+  "fit_years": [
+    1996,
+    2025
+  ],
+  "a": 6.499932277455999,
+  "b": 0.024748408415379175,
+  "b_se": 0.005059009379511879,
+  "dispersion": 38.55854094477927,
+  "projection_2030": {
+    "mean": 1096.362305,
+    "median": 1081.0,
+    "pi80": [
+      808.0,
+      1405.0
+    ],
+    "pi95": [
+      683.0,
+      1596.0
+    ],
+    "vs_30yr_mean": 0.5913909981614092,
+    "prob_above_30yr_mean": 0.973085
+  }
+}
